@@ -1,0 +1,10 @@
+// by concurrently
+"watch": "concurrently \"npm run server\" \"npm run client\""
+
+
+// we can write test with two approaches
+1. __tests__, make a folder with this name and write all your tests there
+2. or write your tests side by side with the name like "name.spec.js" or "name.test.js"
+
+// run test automatically whenever you make any change in the route by
+"test-watch": "jest --watch"
